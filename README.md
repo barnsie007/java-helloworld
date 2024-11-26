@@ -67,3 +67,4 @@ Ready to learn how to interact with a database? Check out this [Sample and tutor
 For help generating other Liberty samples checkout the Liberty App Accelerator at [wasdev.net/accelerate](http://wasdev.net/accelerate)
 
 [Liberty Maven Plug-in]: https://github.com/WASdev/ci.maven
+# amaHello
