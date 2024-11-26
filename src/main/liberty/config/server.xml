@@ -13,7 +13,7 @@ Tue Nov 26 10:52:20 UTC 2024 -->
 <!--  The binary scanner does not support the migration of all WebSphere traditional configuration elements. Check the binary scanner documentation for the list of supported configuration elements.  -->
 <applicationManager autoExpand="true"/>
 <httpEndpoint host="${httpEndpoint_host}" httpPort="${httpEndpoint_port}" httpsPort="${httpEndpoint_secure_port}" id="defaultHttpEndpoint"/>
-<webApplication contextRoot="/AMA" id="JavaHelloWorldApp_war.ear" location="JavaHelloWorldApp.war"/>
+<webApplication contextRoot="/AMA" id="HelloWorldApp_war.ear" location="HelloWorldApp.war"/>
 <transaction propogatedOrBMTTranLifetimeTimeout="300"/>
 <!-- <keyStore id="NodeDefaultKeyStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_1" location="${NodeDefaultKeyStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_1_location}" password="${NodeDefaultKeyStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_1_password}"/>
  -->
@@ -27,10 +27,10 @@ Tue Nov 26 10:52:20 UTC 2024 -->
 <variable defaultValue="*" name="httpEndpoint_host"/>
 <variable defaultValue="9080" name="httpEndpoint_port"/>
 <variable defaultValue="9443" name="httpEndpoint_secure_port"/>
-<!-- <variable defaultValue="JavaHelloWorldApp_war_ear_ghettoes1Node01_NodeDefaultKeyStore_key.p12" name="NodeDefaultKeyStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_1_location"/>
+<!-- <variable defaultValue="HelloWorldApp_war_ear_ghettoes1Node01_NodeDefaultKeyStore_key.p12" name="NodeDefaultKeyStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_1_location"/>
  -->
 <variable defaultValue="TLS" name="NodeDefaultSSLSettings_ghettoes1Node01Cell_SSLConfig_ghettoes1Node01_1_sslProtocol"/>
-<!-- <variable defaultValue="JavaHelloWorldApp_war_ear_ghettoes1Node01_NodeDefaultTrustStore_trust.p12" name="NodeDefaultTrustStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_2_location"/>
+<!-- <variable defaultValue="HelloWorldApp_war_ear_ghettoes1Node01_NodeDefaultTrustStore_trust.p12" name="NodeDefaultTrustStore_ghettoes1Node01Cell_KeyStore_ghettoes1Node01_2_location"/>
  -->
 <!--  The following variables are used to replace sensitive data in the server.xml file for the application.
          The values for these variables were not collected because the includeSensitiveData option was not specified.
